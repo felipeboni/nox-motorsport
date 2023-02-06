@@ -18,8 +18,8 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <main className=" bg-[#141414] after:bg-[url('/img/9793.jpg')] after:h-screen after:w-screen after:absolute after:z-[0] after:opacity-50 after:bg-contain h-screen gap-6 flex justify-center items-center flex-col px-10">
-        <div className="flex flex-col items-center gap-7 justify-center z-[1]">
+      <main className=" bg-[#141414] after:bg-[url('/img/9793.jpg')] after:h-screen after:w-screen after:absolute after:z-[0] after:opacity-50 h-screen gap-6 flex justify-center items-center flex-col px-10 after:bg-[5%] after:bg-repeat after:bg-contain">
+        <div className="flex flex-col items-center gap-7 justify-center z-[1] after:bg-gradient-to-tr after:from-purple-500/10 after:h-screen after:w-screen after:absolute">
           <Image
             src="/img/logo-clean.svg"
             alt="Nox Logo"
